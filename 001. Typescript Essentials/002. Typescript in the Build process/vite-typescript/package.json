@@ -1,0 +1,20 @@
+{
+  "name": "vite-typescript",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "run-p dev:*",
+    "dev:vite": "vite",
+    "dev:tsc": "tsc --watch",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.1.0"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
